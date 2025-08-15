@@ -20,7 +20,7 @@ export default defineConfig({
   use: {
     baseURL: 'https://docs.google.com/spreadsheets',
     browserName: 'chromium',
-    headless: false,
+    headless: true,
     viewport: { width: 1366, height: 820 },
     video: 'on',
     trace: 'on-first-retry',
